@@ -9,8 +9,7 @@ package color;
  * in our Java console applications in an easy and simple way
  */
 public final class cc {
-    
-    
+
 //---------------------------------------------------------------
 //                     COLORS PRE-PROCESSING     
 //---------------------------------------------------------------
@@ -204,7 +203,14 @@ public final class cc {
 //---------------------------------------------------------------
 //                     DINAMIC COLOR FUNCTIONS
 //---------------------------------------------------------------
-    
+    /**
+     * Convierte el color del background y el texto a los colores introducidos 
+     * por el usuario.
+     * @param text 
+     * @param background
+     * @param color
+     * @return background in color selected, text in color selected;
+     */
     public static String selectColors(String text, String background, String color){
         return background + color + text;
     }

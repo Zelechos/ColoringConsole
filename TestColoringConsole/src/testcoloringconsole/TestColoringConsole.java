@@ -20,10 +20,9 @@ public class TestColoringConsole {
         System.out.println(cc.selectColors(message, cc.ANSI_CYAN_BACKGROUND, cc.ANSI_WHITE));
         
         Scanner input = new Scanner(System.in);
-        String code;
-        code  = cc.selectColors("Type a hello world in JavaScript : "+ input.nextLine(), cc.ANSI_YELLOW_BACKGROUND, cc.ANSI_BLACK);
-        System.out.print(code);
-        System.out.println(cc.yellowBg(code));
+        System.out.println("Type a hello world in JavaScript : ");
+        String code = input.nextLine();
+        System.out.println(cc.selectColors(code, cc.ANSI_RED_BACKGROUND, cc.ANSI_BLACK));
         
         
         
