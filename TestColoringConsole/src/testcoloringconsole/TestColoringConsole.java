@@ -23,9 +23,6 @@ public class TestColoringConsole {
         System.out.println("Type a hello world in JavaScript : ");
         String code = input.nextLine();
         System.out.println(cc.selectColors(code, cc.ANSI_RED_BACKGROUND, cc.ANSI_BLACK));
-        
-        
-        
     }
     
 }
