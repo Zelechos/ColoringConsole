@@ -8,7 +8,6 @@ package testcoloringconsole;
 import color.cc;
 import java.util.Scanner;
 
-
 public class TestColoringConsole {
 
     /**
@@ -18,7 +17,7 @@ public class TestColoringConsole {
         
         String message = "error 404 : source not find";
         System.out.println(cc.selectColors(message, cc.ANSI_CYAN_BACKGROUND, cc.ANSI_WHITE));
-        
+          
         Scanner input = new Scanner(System.in);
         System.out.println("Type a hello world in JavaScript : ");
         String code = input.nextLine();
